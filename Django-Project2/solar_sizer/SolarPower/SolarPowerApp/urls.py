@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
 
-urlpatterns=[
-    path=('SolarPowerApp/', views.SolarPowerApp, name='SolarPowerApp'),
+urlpatterns = [
+    path("", views.index, name="index"),
 ]
